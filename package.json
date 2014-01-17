@@ -1,0 +1,27 @@
+{
+    "author": {
+        "name": "Rocky Lee",
+        "email": "airixly@gmail.com"
+    },
+    "name": "mtpl",
+    "description": "Mtpl is a module generator for marionette,coffeescript and requirejs",
+    "keywords": [
+        "marionette",
+        "coffeescript",
+        "requirejs",
+        "generator"
+    ],
+    "version": "0.0.2",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/airixly/mtpl.git"
+    },
+    "main": "./lib/mtpl.js",
+    "bin": {
+        "mtpl": "./bin/mtpl.js"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
