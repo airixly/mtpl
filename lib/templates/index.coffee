@@ -1,10 +1,10 @@
 define ["app", "./controller"], (App, Controller) ->
-  App.module "$_name", ($_name, App, Backbone, Marionette, $, _)->
+  App.module "$_uname", ($_uname, App, Backbone, Marionette, $, _)->
     API =
-      show$_name: ->
-        Controller.show$_name()
+      show$_uname: ->
+        Controller.show$_uname()
 
-    $_name.on "start", ->
-      API.show$_name()
+    $_uname.on "start", ->
+      API.show$_uname()
 
-  App.$_name
+  App.$_uname

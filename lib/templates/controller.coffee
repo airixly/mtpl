@@ -1,6 +1,6 @@
 define ["app", "./views"], (App, Views) ->
-  show$_name: ->
-    $_lnameView = @get$_nameView()
+  show$_uname: ->
+    $_lnameView = @get$_unameView()
 
-  get$_nameView: ->
-    new Views.$_nameView
+  get$_unameView: ->
+    new Views.$_unameView
