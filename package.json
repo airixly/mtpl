@@ -11,15 +11,15 @@
         "requirejs",
         "generator"
     ],
-    "version": "0.0.4",
+    "version": "1.0.1",
     "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/airixly/mtpl.git"
     },
-    "main": "./lib/mtpl.js",
+    "main": "./lib/mtpl",
     "bin": {
-        "mtpl": "./bin/mtpl.js"
+        "mtpl": "./bin/mtpl"
     },
     "engines": {
         "node": "*"

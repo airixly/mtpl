@@ -1,10 +1,4 @@
 #!/usr/bin/env node
 var path = require("path"), fs = require("fs"),
-    lib = path.join(path.dirname(fs.realpathSync(__filename)), "../lib"),
-    mtpl = require(lib + "/mtpl"),
-    options = require(lib + "/helper").parse(process.argv.slice(2));
-
-if (!options.continueProcessing) {
-    return;
-}
-mtpl.create(path.resolve(process.cwd(), options.name));
+    lib = path.join(path.dirname(fs.realpathSync(__filename)), "../lib");
+require(lib + "/mtpl").run();
