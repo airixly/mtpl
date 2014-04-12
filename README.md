@@ -1,7 +1,19 @@
-Mtpl is a module generator for marionette,coffeescript and requirejs.
+Mtpl is a module generator for requirejs.
 
 ##Installation
 sudo npm install -g mtpl
 
 ##Usage
-mtpl your-module-name
+
+* mtpl name
+
+	create an app
+	
+* mtpl -j name
+
+	create a javascript module
+	
+* mtpl -m name
+
+	create a marionette module with coffeescript
+	

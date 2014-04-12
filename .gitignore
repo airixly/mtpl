@@ -9,4 +9,8 @@
 *.swp
 *.bak
 
-templates/*.js
+#node#
+node_modules
+
+*.css
+lib/tpl/module/m/*.js

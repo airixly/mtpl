@@ -1,0 +1,28 @@
+@mixin clearfix {
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin border-radius($value) {
+  border-radius: $value;
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+}
+
+@mixin transition($value) {
+  transition: $value;
+  -webikit-transition: $value;
+  -moz-transition: $value;
+  -o-transition: $value;
+}
+
+@mixin box-shadow($value) {
+  box-shadow: $value;
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+}
