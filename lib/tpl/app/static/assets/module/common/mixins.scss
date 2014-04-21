@@ -9,9 +9,11 @@
 }
 
 @mixin border-radius($value) {
-  border-radius: $value;
   -webkit-border-radius: $value;
   -moz-border-radius: $value;
+  -ms-border-radius: $value;
+  -o-border-radius: $value;
+  border-radius: $value;
 }
 
 @mixin transition($value) {
@@ -25,4 +27,10 @@
   box-shadow: $value;
   -webkit-box-shadow: $value;
   -moz-box-shadow: $value;
+}
+
+@mixin user-select($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  user-select: $value;
 }
