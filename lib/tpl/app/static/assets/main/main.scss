@@ -1,11 +1,7 @@
+@import "../module/common/reset";
 @import "../module/common/mixins";
 @import "../module/common/variable";
 @import "../module/common/helper";
-
-body, h1, h2, h3, h4, h5, h6, ul, li, p, input {
-  margin: 0;
-  padding: 0;
-}
 
 #main {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
