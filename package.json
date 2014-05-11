@@ -1,8 +1,8 @@
 {
     "name": "mtpl",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "author": "Rocky Lee <airixly@gmail.com>",
-    "description": "A module generator for requirejs",
+    "description": "A module generator for requirejs with sass",
     "dependencies": {
         "ncp": "~0.5.x"
     },
@@ -16,6 +16,7 @@
     },
     "keywords": [
         "requirejs",
+        "sass",
         "module",
         "generator"
     ],
